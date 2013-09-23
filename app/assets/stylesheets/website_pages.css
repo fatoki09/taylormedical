@@ -7,5 +7,28 @@ li.nav-link{
 }
 
 div.carousel-buttons-1{
-	position: absolute
+	position: absolute;
+	bottom: 30px;
+	left: 514px;
+	z-index:99;
+}
+
+a.carousel-control-2{
+	
+}
+
+a.carousel-control-2 left{
+	margin-left:0px;
+}
+
+a.carousel-control-2 right{
+	margin-left:60px;
+}
+
+a#right{
+	margin-left:60px;
+}
+
+a#left{
+	margin-left:0px;
 }

@@ -1,4 +1,4 @@
-/*!
+  /*!
  * Bootstrap v2.3.2
  *
  * Copyright 2013 Twitter, Inc
@@ -121,8 +121,8 @@
 }
 .carousel-indicators {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 10px;
+  right: 200px;
   z-index: 5;
   margin: 0;
   list-style: none;
