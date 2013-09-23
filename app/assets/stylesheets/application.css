@@ -67,3 +67,8 @@ div#carousel-image-wrapper{
 img#carousel-image{
 	height:400px;
 }
+
+a.header{
+  padding:0px 20px 0px 20px;
+}
+
