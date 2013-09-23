@@ -1,0 +1,54 @@
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+  	function initialize() {
+    var myLatlng = new google.maps.LatLng(41.595080,-87.561924);
+    var myLatlng2 = new google.maps.LatLng(41.345757,-88.841013);
+    var mapOptions = {
+      zoom: 8,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: 'Calumet City Office'
+    });
+
+    var marker2 = new google.maps.Marker({
+    	position: myLatlng2,
+    	map: map,
+    	title: 'Ottawa Office'
+    })
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+  });
+</script>
+
+<style type="text/css">
+	section#practice-location, #map-canvas{
+		height:350px;
+	}
+
+</style>
+
+<section id="practice-location" class="padding-top margin-bottom padding-bottom">
+	<div class="row">
+    <div id="map-canvas"></div>
+  </div>
+</section>
+<section class="padding-top" style="line-height:2em;">
+	<div class="row">
+		<div class="column_12 text align center">
+		<p class="location-text">
+2315 E. 93rd Street, Suite 240<br /> Chicago, IL 60617<br />
+Phone: 773.375.8366</p></div>
+	</div>
+</section>
+<div class="row padding-bottom margin-bottom">
+  <h2 class="text center color default bold" style="line-height:2em;">Get in contact with us today!</h2>
+  <div class="row"><%= render 'contact_messages/form' %></div>
+</div>
