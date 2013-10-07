@@ -1,69 +1,64 @@
+<% set_meta_tags :site => 'Taylor Medical Associates', :title => 'Home' %>
+<% set_meta_tags :description => "Welcome to Taylor Medical Associates, a family practice on the South Side of Chicago. We offer pediatric care, gynecologic care, as well as diagnosis and treatment of chronic illnesses." %>
 
-
-<!-- <div class="carousel" data-transition="slide"> -->
-    <!-- <div> -->
-       <!-- <img src="http://static.flickr.com/66/199481236_dc98b5abb3_s.jpg" width="75" height="75" alt="" /> -->
-    <!-- </div> -->
-    <!-- <div> -->
-        <!-- <img src="http://static.flickr.com/70/229228324_08223b70fa_s.jpg" width="75" height="75" alt="" /> -->
-    <!-- </div> -->
-<!-- </div> -->
-
-
-<section class="padding-bottom padding-top bck dark features">
+<section class="padding features">
         <div class="row text color dark center book">
             <div class="column_12">
-                <div >
-                    <h1 class="color white padding">Welcome to Taylor Medical Associates!</h1>
-                        <h4 class="margin-bottom">A <strong>family practice</strong> that treats you like family.</h4>
+                <div>
+                    <h1 id="welcome-message" class="text bold color white padding">Welcome to Taylor Medical Associates!</h1>
+                        <h2 class="text bold margin-bottom" id="family">A <strong>family practice</strong> that treats you like family.</h2>
                 </div>
-
                     
-                    
-                    
-
-                    <script type="text/javascript">
+ 
+                        <h4 class="padding text bold" id="multitude"> We treat a multitude of health issues all in one location.</h4>
+            </div>
+        </div>
+</section>
+        
+<script type="text/javascript">
                          $.backstretch([
-                            "<%= asset_path 'black-family.jpg'%>",
+                            
                             "<%= asset_path 'happy_black_couple.jpg'%>",
-                            "<%= asset_path 'woman.jpg'%>"    
+                            "<%= asset_path 'woman.jpg'%>",
+                            "<%= asset_path 'black-family.jpg'%>"
+                               
                           ], {duration: 4000, fade: 2000});
                     </script>
-                
                     
-                    
-                        <h4 class="padding text bold" id="multitude"> We treat a multitude of health issues all in one location.</h4>
-                    
-             </div>
+            
 <br>
+
+ <section class="padding bck dark">  
+            <div class="row align center">
         <div class="row text center normal padding">
             	 <div class="column_4">
-    	                <h1 class="icon truck"></h1>
-    	                <h4 class="text color white">Pediatric Care</h4>
+    	                <h1 id="features" class="icon truck"></h1>
+    	                <h4 id="features" class="text bold">Pediatric Care</h4>
                     <br>
                     <br>
                     <br>
-    		                <p class="text normal">Bring your newborn for well-child visits, vaccinations and annual check-ups. We also perform school and sports physicals for kids of all ages.</p>
+    		                <p class="text bold">Bring your newborn for well-child visits, vaccinations and annual check-ups. We also perform school and sports physicals for kids of all ages.</p>
                 </div>
 
                 <div class="column_4">
-                    	<h1 class="icon calendar"></h1>
-                    	<h4 class="text color white">Gynecologic Care</h4>
+                    	<h1 id="features" class="icon calendar"></h1>
+                    	<h4 id="features" class="text bold">Gynecologic Care</h4>
                 	
                 	<br>
                     <br>
                     <br>
-    		                <p class="text normal">We offer routine gynecologic care including annual exams, pap smears, breast exams, as well as help with contraception and other family planning needs. </p>
+    		                <p class="text bold">We offer routine gynecologic care including annual exams, pap smears, breast exams, as well as help with contraception and other family planning needs. </p>
                 </div>
 
                 <div class="column_4">
-    	                <h1 class="icon user-md"></h1>
-    	                <h4 class="text color white">Diagnosis &amp; Treatment of Chronic Illnesses</h4>
+    	                <h1 id="features" class="icon user-md"></h1>
+    	                <h4 id="features" class="text bold">Diagnosis &amp; Treatment of Chronic Illnesses</h4>
                     <br>
-    		                <p class="text normal">We treat a myriad of chronic ailments ranging from diabetes and hypertension to obesity and geriatric syndromes. Our goal is to keep you and your family healthy and out of the emergency room. </p>
+    		                <p class="text bold">We treat chronic ailments ranging from diabetes and hypertension to obesity and geriatric syndromes. Our goal is to keep you and your family healthy and out of the emergency room. </p>
                 </div>
-    </div>
+        </div>
 </section>
+    
 
 
 
@@ -91,7 +86,7 @@
 
 
 
-    <section class="padding bck white align center ">
+    <section id="office-hours-bck" class="padding bck align center ">
         <div class= "row">
 
             <h1 class="margin-bottom text bold align center" id="office-hours">Office Hours</h1>

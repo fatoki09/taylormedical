@@ -1,13 +1,25 @@
+#family, #multitude {
+	color: white;
+}
+
+#office-hours-bck{
+	background-color:white;
+}
+
 #inbox-button, #telephone-button{
 	line-height: 1em;
 }
 
-#multitude {
+/*#multitude {
 	color: #FFB073;
-}
+}*/
 
 #walk-ins, #office-hours, #emergency, #board-certified, #office-staff, #faq {
 	color: black;
+}
+
+#features {
+	color: white;
 }
 
 * {

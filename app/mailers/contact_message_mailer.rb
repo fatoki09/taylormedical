@@ -1,8 +1,8 @@
 class ContactMessageMailer < ActionMailer::Base
-  default from: "yfatoki@great-heights.com"
+  default from: "julievtaylor@hotmail.com"
 
    def inbox_message(contact_message)
 	  	@contact_message = contact_message
-	    mail(:from => "fatoki09@yahoo.com", :subject => "Website Inbox Message")
+	    mail(:from => "julievtaylor@hotmail.com", :to => contact_message.email, :subject => "Taylor Medical Inbox Message")
 	  end
 end

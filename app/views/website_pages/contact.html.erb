@@ -1,3 +1,5 @@
+<% set_meta_tags :site => 'Taylor Medical Associates', :title => 'Contact' %>
+<% set_meta_tags :description => "Taylor Medical Associates is located at 2315 E. 93rd Street, Suite 240 in Chicago, Illinois. Our office is directly across the street from Advocate Trinity Hospital in Suite 240 of the Professional Building." %>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 <script type="text/javascript">
   $(document).ready(function() {
@@ -13,16 +15,10 @@
     var marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
-        title: 'Calumet City Office'
+        title: 'Taylor Medical Asosicates Office'
     });
 
-    var marker2 = new google.maps.Marker({
-    	position: myLatlng2,
-    	map: map,
-    	title: 'Ottawa Office'
-    })
-  }
-
+    
   google.maps.event.addDomListener(window, 'load', initialize);
   });
 </script>

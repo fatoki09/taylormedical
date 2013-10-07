@@ -40,6 +40,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'meta-tags', :require => 'meta_tags'
+
+gem 'mandrill_mailer'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

@@ -4,9 +4,7 @@ Ghwebsite::Application.routes.draw do
 
   get "/home" => "website_pages#home"
   get "/about" => "website_pages#about"
-  get "/faq" => "website_pages#drug_treatment"
-  get "/weight_loss" => "website_pages#weight_loss"
-  get "/immigration_physicals" => "website_pages#immigration_physicals"
+  get "/faq" => "website_pages#faq"
   get "/contact" => "website_pages#contact"
 
 
