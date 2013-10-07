@@ -1,11 +1,10 @@
 <section class="bck light">
 		<div class="row text center">
 			<nav data-tuktuk="menu" class="column_12 padding text bold">
-				<ul id="header-links" class="column_10 text center offset_1">
-					<li class="nav-link column_3"><%= link_to_unless_current 'Home', root_path %></li>
-					<li class="nav-link column_3"><%= link_to_unless_current 'About', about_path %></li>
-					<li class="nav-link column_3"><%= link_to_unless_current 'Contact', contact_path %></li>
-				</ul>
+					<%= link_to_unless_current 'Home', root_path, :class => "margin-left margin-right" %>
+					<%= link_to_unless_current 'About', about_path, :class => "margin-left margin-right" %>
+					<%= link_to_unless_current 'FAQ', faq_path, :class => "margin-left margin-right" %>
+					<%= link_to_unless_current 'Contact', contact_path, :class => "margin-left margin-right" %>
 			</nav>
      </div>
    </section>
