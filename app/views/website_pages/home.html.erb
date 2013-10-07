@@ -13,28 +13,24 @@
 <section class="padding-bottom padding-top bck dark features">
         <div class="row text color dark center book">
             <div class="column_12">
-                <h1 class="color white padding">Welcome to Taylor Medical Associates!</h1>
-                    <h4 class="margin-bottom">A <strong>family practice</strong> that treats you like family.</h4>
+                <div >
+                    <h1 class="color white padding">Welcome to Taylor Medical Associates!</h1>
+                        <h4 class="margin-bottom">A <strong>family practice</strong> that treats you like family.</h4>
+                </div>
+
+                    
+                    
+                    
+
+                    <script type="text/javascript">
+                         $.backstretch([
+                            "<%= asset_path 'black-family.jpg'%>",
+                            "<%= asset_path 'happy_black_couple.jpg'%>",
+                            "<%= asset_path 'woman.jpg'%>"    
+                          ], {duration: 4000, fade: 2000});
+                    </script>
                 
-                    <div id="myCarousel" class="carousel slide">
-                          <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                          </ol>
-                              <!-- Carousel items -->
-                              <div class="carousel-inner">
-                                <div class="carousel-buttons-1">
-                                      <a id="left" class="carousel-control-2 left hide-phone" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                                      <a id="right" class="carousel-control-2 right hide-phone" href="#myCarousel" data-slide="next">&rsaquo;</a>
-                                </div>
-                                    <div id="carousel-image-wrapper" class="active item"><%= image_tag("black-family.jpg", :class => "column_8 offset_2 align center", :id => "carousel-image") %></div>
-                                    <div id="carousel-image-wrapper" class="item"><%= image_tag("happy_black_couple.jpg", :class => "column_8 offset_2 align center", :id => "carousel-image") %></div>
-                                    <div id="carousel-image-wrapper" class="item"><%= image_tag("woman.jpg", :class => "column_8 offset_2 align center", :id => "carousel-image") %></div>
-                                </div>
-                              <!-- Carousel nav -->
-                      
-                    </div>
+                    
                     
                         <h4 class="padding text bold" id="multitude"> We treat a multitude of health issues all in one location.</h4>
                     
