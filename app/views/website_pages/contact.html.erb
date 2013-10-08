@@ -4,7 +4,7 @@
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 <script type="text/javascript">
   $(document).ready(function() {
-  	function initialize() {
+    function initialize() {
     var myLatlng = new google.maps.LatLng(41.726191,-87.567591);
     var mapOptions = {
       zoom: 12,
@@ -16,10 +16,10 @@
     var marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
-        title: 'Taylor Medical Assosicates Office'
+        title: 'Taylor Medical Associates Office'
     });
+  }
 
-    
   google.maps.event.addDomListener(window, 'load', initialize);
   });
 </script>
