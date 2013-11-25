@@ -4,57 +4,58 @@
 <section class="padding features">
         <div class="row text color dark center book">
             <div class="column_12">
-                <div>
-                    <h1 id="welcome-message" class="text bold color white padding">Welcome to Taylor Medical Associates!</h1>
-                        <h2 class="text bold margin-bottom" id="family">A <strong>family practice</strong> that treats you like family.</h2>
+                <div id="hero" class="column_6">
+                    <h2 id="welcome-message" class="hide-phone" style="padding:5px 5px 5px 5px;">Welcome to Taylor Medical Associates</h2>
+                    <p id="welcome-message" class="show-phone" style="font-size:40px; padding:5px 0px 5px 0px;">Welcome to Taylor Medical Associates</p>
                 </div>
+
+                        <!-- <div id="hero" class="column_4">
+      <h1 class="text align center" style="font-size:3em; padding:5px 0px 5px 0px;">Mobile church giving...with emotion</h1> -->
+                    <br><br><br><br>
+                        <h2 class="text bold padding" id="family">A <strong>family practice</strong> that treats you like family.</h2>
+                
                     
  
-                        <h4 class="padding text bold" id="multitude"> We treat a multitude of health issues all in one location.</h4>
+                        
             </div>
         </div>
 </section>
         
 <script type="text/javascript">
-                         $.backstretch([
-                            
-                            "<%= asset_path 'happy_black_couple.jpg'%>",
-                            "<%= asset_path 'woman.jpg'%>",
-                            "<%= asset_path 'black-family.jpg'%>"
-                               
-                          ], {duration: 4000, fade: 2000});
-                    </script>
+     $.backstretch("<%= asset_path 'stethoscope.jpg'%>");
+</script>  
                     
             
 <br>
 
  <section class="padding bck dark">  
-            <div class="row align center">
-        <div class="row text center normal padding">
+    <div class="row align center">
+        <h2 class="padding text bold" id="features"> We treat a multitude of health issues in one location.</h2>
+            <div class="row text center normal padding">
             	 <div class="column_4">
-    	                <h1 id="features" class="icon truck"></h1>
-    	                <h4 id="features" class="text bold">Pediatric Care</h4>
+    	                <h1 class="icon truck"></h1>
+    	                <h4 class="text bold">Pediatric Care</h4>
                     <br>
                     <br>
                     <br>
-    		                <p class="text bold">Bring your newborn for well-child visits, vaccinations and annual check-ups. We also perform school and sports physicals for kids of all ages.</p>
+    		                <p class="text bold" id="features">Bring your newborn for well-child visits, vaccinations and annual check-ups. We also perform school and sports physicals for kids of all ages.</p>
                 </div>
 
                 <div class="column_4">
-                    	<h1 id="features" class="icon calendar"></h1>
-                    	<h4 id="features" class="text bold">Gynecologic Care</h4>
+                    	<h1  class="icon calendar"></h1>
+                    	<h4  class="text bold">Gynecologic Care</h4>
                 	
                 	<br>
                     <br>
                     <br>
-    		                <p class="text bold">We offer routine gynecologic care including annual exams, pap smears, breast exams, as well as help with contraception and other family planning needs. </p>
+    		                <p class="text bold" id="features">We offer routine gynecologic care including annual exams, pap smears, breast exams, as well as help with contraception and other family planning needs. </p>
                 </div>
 
                 <div class="column_4">
-    	                <h1 id="features" class="icon user-md"></h1>
-    	                <h4 id="features" class="text bold">Diagnosis &amp; Treatment of Chronic Illnesses</h4>
+    	                <h1 class="icon user-md"></h1>
+    	                <h4 class="text bold">Diagnosis &amp; Treatment of Chronic Illnesses</h4>
                     <br>
-    		                <p class="text bold">We treat chronic ailments ranging from diabetes and hypertension to obesity and geriatric syndromes. Our goal is to keep you and your family healthy and out of the emergency room. </p>
+    		                <p class="text bold" id="features">We treat chronic ailments ranging from diabetes and hypertension to obesity and geriatric syndromes. Our goal is to keep you and your family healthy and out of the emergency room. </p>
                 </div>
         </div>
 </section>
@@ -102,6 +103,9 @@
                     <br><br><br><br>
 
                     <h4 class="text bold" id="walk-ins">*Walk-Ins Accepted*</h4>
+
+                        <br><br>
+                     <div class="row align center"><img src="/assets/taylor-medical.jpg" class="column_6 align center"></div>
                      
 
         </div>

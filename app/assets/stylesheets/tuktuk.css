@@ -1,6 +1,17 @@
-#family, #multitude {
+#hero{
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 3px;
+	/*position: absolute;*/
+	margin-left: 0px;
+	top: 266px;
+	/*font-weight: bold;*/
 	color: white;
 }
+
+ #family {
+	color: #FF9340;
+}
+
 
 #office-hours-bck{
 	background-color:white;
